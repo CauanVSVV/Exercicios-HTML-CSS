@@ -1,0 +1,58 @@
+<!--
+[H/C-A03]Crie uma página de feedback para um site 
+utilizando um formulário que permita aos usuários enviar 
+seus comentários. Os campos do formulário serão referentes ao 
+nome do usuário, data, avaliação textual. Em seguida, crie uma 
+tabela com colunas correspondentes a esses campos e preencha-a 
+simulando registros de usuários anteriores.
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>        
+    <meta charset="UTF-8">        
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">        
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">          
+    <link rel="stylesheet" href="style.css">       
+    <title>Prova 03</title>
+</head>
+<body>    
+    <header>        
+        <h1>Feedback da Página</h1>    
+    </header>    
+    <div class="pagina">        
+        <div class="container">                   
+            <h2>Envie seu feedback:</h2>            
+            <form class="feedbackForm">                
+                <label for="name">Nome:</label>                
+                <input type="text" id="name" name="name" required>                        
+                <label for="date">Data:</label>                
+                <input type="date" id="date" name="date" required>                        
+                <label for="feedbackUsuario">Comentário:</label>                
+                <textarea id="feedbackUsuario" name="feedbackUsuario" required></textarea>                        
+                <input type="submit" id="botao" value="Enviar">            
+            </form>        
+        </div>        
+        <div class="comentarios">            
+            <h2>Feedbacks anteriores</h2>            
+            <table class="feedbackTable">                
+                <tr>                    
+                    <th>Nome</th>                    
+                    <th>Data</th>                    
+                    <th>Comentário</th>                
+                </tr>                
+                <tr>                    
+                    <td>Marcos</td>                    
+                    <td>2023-12-28</td>                    
+                    <td class="comentario">Lorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet cLorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit ametrtrtrteeretr consectetur adipisicing elit. Lorem, ipsum dolor sit ametrtrtrteeretr consectetur adipisicing elit.</td>                
+                </tr>                
+                <tr>                    
+                    <td>Lucas</td>                    
+                    <td>2022-05-26</td>                    
+                    <td class="comentario">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit ametrtrtrteeretr consectetur adipisicing elit.</td>                </tr>                <tr>                    <td>João</td>                    <td>2020-01-12</td>                    <td class="comentario">Lorem, ipsum dolor sit ametrtrtrteeretr consectetur adipisicing elit. Lorem, ipsum dolor </td>                
+                    </tr>            
+                </table>        
+        </div>    
+    </div>
+</body>
+</html>

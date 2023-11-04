@@ -1,0 +1,56 @@
+<!--
+[H/C-A02]Crie uma página HTML, com cinco imagens (logomarca dos sites) que, 
+ao clicar, leve para os sites, considere um pequeno detalhe, a página aberta 
+não pode sobrepor a página principal, ou seja, o link deve abrir outra aba do navegador.
+
+Exemplo:  
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Página de links</title>
+</head>
+    <body>
+        <header class="cabecalho">
+            <a class="cabecalho-item">PÁGINA DE LINKS</a>
+        </header>
+
+        <section class="conteudo-principal">
+            <p class="conteudo-principal-titulo">Clique na imagem para ser direcionado ao site!</p>
+            <div class="conteudo-principal-imagens">
+                <a class="conteudo-principal-item" href="https://www.facebook.com" target="_blank"> 
+                    <img class="conteudo-principal-imagem" src="Facebook_img.png" alt="Logomarca Facebook">
+                </a>
+
+                <a class="conteudo-principal-item" href="https://github.com" target="_blank"> 
+                    <img class="conteudo-principal-imagem" src="Github_img.png" alt="Logomarca Github">
+                </a>
+
+                <a class="conteudo-principal-item" href="https://www.youtube.com" target="_blank"> 
+                    <img class="conteudo-principal-imagem" src="Youtube_img.png" alt="Logomarca Youtube">
+                </a>
+
+                <a class="conteudo-principal-item" href="https://www.google.com.br" target="_blank"> 
+                    <img class="conteudo-principal-imagem" src="Google_img.png" alt="Logomarca Google">
+                </a>
+
+                <a class="conteudo-principal-item" href="https://colab.research.google.com" target="_blank"> 
+                    <img class="conteudo-principal-imagem" src="GoogleColab_img.png" alt="Logomarca Google Colab">
+                </a>
+            </div>
+        </section>
+
+        <main>
+            
+        </main>
+
+        <footer class="rodape">
+            <p class="rodape-item">2023 | Página de Links</p>
+        </footer>
+    </body>
+</html>

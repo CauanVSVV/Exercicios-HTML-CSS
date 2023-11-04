@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2? family= Noto+Sans:wght@200;300 & family= Righteous & family= Sarala:wght@400;700 & display=swap' );
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+}
+
+
+/*-------------------------------------------------------------------*/
+/*Cabecalho*/
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-color: #000000;
+}
+
+.cabecalho-item {
+    font-family: 'Sarala', sans-serif;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+/*-------------------------------------------------------------------*/
+/*Conteudo*/
+
+.conteudo-principal {
+    margin-top: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.conteudo-principal-titulo {
+    font-family: 'Sarala', sans-serif;
+    color: #000000;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: underline;
+    text-decoration-color: #730071;
+}
+
+.conteudo-principal-imagens {
+    margin-top: 80px;
+}
+
+.conteudo-principal-item {
+    text-decoration: none;
+    margin: 25px;
+}
+
+.conteudo-principal-imagem {
+    width: 100px;
+    transition: 300ms linear;
+}
+
+.conteudo-principal-imagem:hover {
+    width: 130px;
+    margin-top: -20px;
+    margin-bottom: -10px;
+}
+
+/*-------------------------------------------------------------------*/
+/*Rodape*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 246px;
+    background-color: #000000;
+}
+
+.rodape-item {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #ffffff;
+    margin: 40px;
+}

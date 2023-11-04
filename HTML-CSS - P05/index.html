@@ -1,0 +1,91 @@
+<!--
+
+[H/C-A05] O recurso de Lista é muito utilizado em projetos de desenvolvimento 
+de sites e softwares para organizar informações em tópicos de texto. Com o uso das tags adequadas, 
+é possível criar listas ordenadas e não-ordenadas.
+
+Nessa atividade, você deverá criar uma página web com uma lista não-ordenada, onde 
+cada item da lista deve ser um link para outra página web. Além disso, cada item deve 
+conter uma imagem pequena e um texto escrito ao lado da imagem. A lista deve ter pelo menos 5 itens.
+
+Lembre-se de utilizar as tags adequadas do HTML para criar a lista e inserir as imagens e links.    
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova05</title>
+</head>
+<body>
+    <header>
+        <P class="texto-cabecalho">LISTA DE SITES</P>
+    </header>
+    <main class="conteudo">
+        <ul class="listas">
+            <p class="lista-nota"><b>Obs:</b> click na imagem para ser redirecionado</p>
+            <li class="lista">
+                <a href="https://www.netflix.com/br/" class="lista-item">
+                  <img src="assets/Netflix_Logo.png" alt="Netflix" width="150" height="150">
+                </a>
+                <div>
+                    <p class="lista-item-nome">Netflix</p><br>
+                    <p class="lista-item-texto">
+                        A Netflix é um serviço de streaming por 
+                        assinatura que permite assistir a séries e filmes em um aparelho 
+                        conectado à internet.
+                    </p>
+                </div>
+            </li>
+            <li class="lista">
+                <a href="https://pt-br.facebook.com/" class="lista-item">
+                  <img src="assets/Facebook_Logo.png" alt="Facebook" width="150" height="150">
+                </a>
+                <div>
+                    <p class="lista-item-nome">Facebook</p><br>
+                    <p class="lista-item-texto">
+                        Facebook é uma rede social que conecta usuários em todo o mundo.
+                    </p>
+                </div>
+            </li>
+            <li class="lista">
+                <a href="https://www.youtube.com/" class="lista-item">
+                  <img src="assets/Youtube_Logo.png" alt="Youtube" width="150" height="150">
+                </a>
+                <div>
+                    <p class="lista-item-nome">Youtube</p><br>
+                    <p class="lista-item-texto">
+                        YouTube é uma plataforma de vídeos online.
+                    </p>
+                </div>
+            </li>
+            <li class="lista">
+                <a href="https://open.spotify.com/" class="lista-item">
+                  <img src="assets/Spotify_Logo.png" alt="Spotify" width="150" height="150">
+                </a>
+                <div>
+                    <p class="lista-item-nome">Spotify</p><br>
+                    <p class="lista-item-texto">
+                        O Spotify é um serviço digital que dá acesso instantâneo a milhões 
+                        de músicas, podcasts, vídeos e outros conteúdos de criadores no mundo 
+                        todo.
+                    </p>
+                </div>
+            </li>
+            <li class="lista">
+                <a href="https://discord.com/" class="lista-item">
+                  <img src="assets/Discord_Logo.png" alt="Discord" width="150" height="150">
+                </a>
+                <div>
+                    <p class="lista-item-nome">Discord</p><br>
+                    <p class="lista-item-texto">Discord é uma plataforma para pessoas com 
+                        interesses semelhantes compartilharem e se comunicarem.
+                    </p>
+                </div>
+            </li>          
+        </ul>
+    </main>
+</body>
+</html>

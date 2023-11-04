@@ -1,0 +1,89 @@
+<!--
+
+[H/C-A01] Na aula de HTML, você aprendeu que essa linguagem de marcação é usada 
+para estruturar o conteúdo de páginas da web. Sua tarefa agora é criar um currículo 
+utilizando as tags HTML que foram ensinadas.
+
+Além disso, você precisa alterar o título da página para 
+"Meu currículo" e definir o idioma padrão como português. Utilize as tags aprendidas em 
+aula para formatar o corpo do currículo. Seja criativo!
+
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu currículo</title>
+</head>
+<body>
+    <header class="cabecalho">
+        <a class="cabecalho-nome">MEU CURRÍCULO</a>
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#sobre">Sobre</a>
+            <a class="cabecalho-menu-item" href="#experiencia">Experiência</a>
+            <a class="cabecalho-menu-item" href="#contato">Contato</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-principal-escrito">
+                <h1 class="conteudo-principal-escrito-nome" href="#">Cauan Valadares</h1>
+                <h2 class="conteudo-principal-escrito-subtitulo">Futuro programador</h2>
+            </div>
+            <img class="conteudo-principal-imagem" src="fotoperfil.jpg" alt="Foto" width="240px">
+        </section>
+
+        <section id="sobre" class="conteudo-sobre">
+            <h2 class="conteudo-sobre-titulo">Sobre</h2>
+
+            <p class="conteudo-sobre-paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quisquam explicabo nam natus alias, labore consectetur optio sed libero qui animi repellat nihil quas 
+                deserunt accusantium aut quidem dolores molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi corrupti, voluptatum minus voluptatibus temporibus 
+                possimus, consectetur repudiandae accusamus neque doloremque asperiores quaerat nulla impedit, eligendi aut unde. Ad, debitis. Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Possimus repellendus perferendis quaerat, architecto harum porro pariatur quo! Ullam, repellat, dicta quod, atque impedit quidem eveniet 
+                neque nam praesentium eos velit. </p>
+
+            <p class="conteudo-sobre-paragrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quisquam explicabo nam natus alias, labore consectetur optio sed libero qui animi repellat nihil quas 
+                deserunt accusantium aut quidem dolores molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi corrupti, voluptatum minus voluptatibus temporibus 
+                possimus, consectetur repudiandae accusamus neque doloremque asperiores quaerat nulla impedit, eligendi aut unde. Ad, debitis. Lorem ipsum dolor, sit amet 
+                consectetur adipisicing elit. Possimus repellendus perferendis quaerat, architecto harum porro pariatur quo! Ullam, repellat, dicta quod, atque impedit quidem eveniet 
+                neque nam praesentium eos velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quisquam explicabo nam natus alias, labore consectetur optio sed 
+                libero qui animi repellat nihil quas deserunt accusantium aut quidem dolores molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi corrupti, voluptatum 
+                minus voluptatibus temporibus possimus, consectetur repudiandae accusamus neque doloremque asperiores quaerat nulla impedit, eligendi aut unde. Ad, debitis. 
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repellendus perferendis quaerat, architecto harum porro pariatur quo! Ullam, repellat, dicta quod, atque impedit 
+                quidem eveniet neque nam praesentium eos velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Maiores quisquam explicabo nam natus alias, labore 
+                consectetur optio sed libero qui animi repellat nihil quas deserunt accusantium aut quidem dolores molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel 
+                nisi corrupti, voluptatum minus voluptatibus temporibus possimus, consectetur repudiandae accusamus neque doloremque asperiores quaerat nulla impedit, eligendi aut 
+                unde. Ad, debitis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus repellendus perferendis quaerat, architecto harum porro pariatur quo! Ullam, repellat, 
+                dicta quod, atque impedit quidem eveniet neque nam praesentium eos velit. </p>
+
+        </section>
+
+        <section id="experiencia" class="conteudo-experiencia">
+            <h2 class="conteudo-experiencia-titulo">Experiência</h2>
+            <div class="conteudo-experiencia-curso-1">
+                <h3 class="conteudo-experiencia-curso">Ciência da computação</h3>
+                <p class="conteudo-experiencia-curso-informacao"><strong>UNIFACS</strong> - Salvador, BA<br>2020 - presente<br>6° semestre</p>
+
+            </div>
+            <div class="conteudo-experiencia-curso-2">
+                <h3 class="conteudo-experiencia-curso">Programador Full Stack</h3>
+                <p class="conteudo-experiencia-curso-informacao"><strong>Infinity School</strong> - Salvador, BA<br>2022 - 2023</p>
+            </div>
+        </section>
+
+        <a id="link-topo" href="#">&#9650;</a>
+
+        <footer id="contato" class="rodape">
+            <h1 class="rodape-contato-titulo">Contato</h1>
+            <p class="rodape-contato-telefone"><strong>Tel.:</strong> (XX) XXXXXX-XXXX</p>
+            <p class="rodape-contato-email"><strong>Email:</strong> XXXX_XXXXXX@gmail.com</p>
+        </footer>
+
+    </main>
+</body>
+</html>

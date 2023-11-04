@@ -1,0 +1,77 @@
+<!--
+    !!! MUDARARAM A PERGUNTA !!!
+
+[H/C-A04] Você foi contratado como estagiáro para desenvolver o site do Esporte Clube Bahia.
+
+Para iniciar, você deve criar um menu simples de navegação com 4 itens: 
+Página inicial, O clube, História, Loja online.
+
+O clube pediu para que essas opções o menu fiquem uma abaixo da outra, 
+as letras tenham 14pt de tamanho e com a fonte Arial, o fundo desse menu deve azul, 
+a cor da primeira da letra de cada item seja vermelha e o resto das letras devem ser brancas.
+
+Cada item desse menu deve levar para o site: https://www.esporteclubebahia.com.br/
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Prova 04</title>
+</head>
+<body>
+    <header>
+        <p>Formulário</p>
+    </header>
+    <div class="pagina">
+        <form>
+            <label for="nome">Nome</label>
+            <input class="entradaUsuario" type="text" id="nome" name="nome" required>
+            
+            <label for="senha">Senha</label>
+            <input class="entradaUsuario" type="password" id="senha" name="senha" required>
+            
+            <label for="email">Email</label>
+            <input class="entradaUsuario" type="email" id="email" name="email" placeholder="Ex: fulano@gmail.com" required>
+            
+            <div class="campos_selecao">
+                <div class="hobby">
+                    <p>Hobby preferido:</p>
+                    
+                    <input type="checkbox" id="hobby_tocar_instrumento" name="hobby_tocar_instrumento" value="hobby_tocar_instrumento">
+                    <label for="hobby_tocar_instrumento">Tocar instrumento</label><br>
+                    
+                    <input type="checkbox" id="hobby_academia" name="hobby_academia" value="hobby_academia">
+                    <label for="hobby_academia">Ir à academia</label><br>
+                    
+                    <input type="checkbox" id="hobby_pescar" name="hobby_pescar" value="hobby_pescar">
+                    <label for="hobby_pescar">Pescar</label><br>
+                    
+                    <input type="checkbox" id="hobby_viajar" name="hobby_viajar" value="hobby_viajar">
+                    <label for="hobby_viajar">Viajar</label><br>
+                    
+                    <input type="checkbox" id="hobby_outros" name="hobby_outros" value="hobby_outros">
+                    <label for="hobby_outros">Outros</label><br>
+                </div>
+                
+                <div class="genero">                
+                    <p>Gênero:</p>
+                    
+                    <input type="radio" id="Masculino" name="genero" value="Masculino">
+                    <label for="Masculino">Masculino</label><br>
+                    
+                    <input type="radio" id="Feminino" name="genero" value="Feminino">
+                    <label for="Feminino">Feminino</label><br>        
+                </div>
+            </div>
+
+            <div class="botoes">
+                <input class="botao" type="submit" value="Enviar">
+                <input class="botao" type="reset" value="Limpar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;    
+    height: 100vh;       
+    font-family: 'Sarala', sans-serif;
+    background-color: #D6DBD2;
+}
+
+header {
+    display: flex;    
+    justify-content: center;
+    font-size: 40px;
+    background-color: #2C363F;
+    color: #E75A7C;
+}
+
+.pagina {    
+    display: flex;       
+    justify-content: center;     
+    flex-direction: column;    
+    align-items: center;    
+    padding: 100px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2F5EA;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form .entradaUsuario {
+    padding: 4px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+.campos_selecao {
+    display: flex;
+    margin-top: 20px;
+}
+
+.hobby {
+    padding: 20px;
+    margin-left: -14px;
+}
+
+.hobby p {
+    margin-bottom: 10px;
+}
+
+.genero {
+    padding: 20px;
+}
+
+.genero p {
+    margin-bottom: 10px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.botao {
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #E75A7C;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    color: #E75A7C;
+    background-color: #ffffff;
+}

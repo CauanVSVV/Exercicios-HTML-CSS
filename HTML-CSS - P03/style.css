@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@200;300&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {    
+    margin: 0;    
+    padding: 0;
+}
+
+body {        
+    width: 100%;    
+    height: 00vh;       
+    font-family: 'Noto Sans', sans-serif;
+}
+
+header {    
+    display: flex;    
+    justify-content: center;    
+    color: rgb(255, 255, 255);    
+    background-color: #1b53bb;    
+    padding: 10px;
+}
+
+.pagina {    
+    display: flex;       
+    justify-content: center;     
+    flex-direction: column;    
+    align-items: center;    
+    padding: 100px;
+}
+
+.container {    
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;    
+    padding: 20px;    
+    width: 600px;    
+    margin-top: -60px;    
+    border: none;    
+    border-radius: 10px;    
+    color: rgb(255, 255, 255);    
+    background-color: #6081be;
+}
+
+.container h2 {    
+    margin-bottom: 20px;    
+    font-size: 25px;
+}
+
+.container label{    
+    margin-top: 12px;    
+    margin-bottom: 5px;
+}
+
+.feedbackForm {    
+    display: flex;    
+    flex-direction: column;    
+    align-items: center;
+}
+
+#name {    
+    width: 300px;    
+    padding: 6px;    
+    border: none;    
+    border-radius: 8px;
+}
+
+#feedbackUsuario {    
+    width: 300px;    
+    height: 100px;    
+    padding: 6px;    
+    resize: none;    
+    border: none;    
+    border-radius: 8px;
+}
+
+#botao {    
+    font-size: 15px;    
+    background-color: #1b53bb;    
+    color: rgb(255, 255, 255);    
+    margin-top: 20px;    
+    border: 2px solid #1b53bb;    
+    border-radius: 8px;    
+    padding: 10px;    
+    padding-left: 35px;    
+    padding-right: 35px;    
+    transition: 0.4s;
+}
+
+#botao:hover {    
+    background-color: #ffffff;    
+    color: #1b53bb;
+}
+
+.comentarios {    
+    display: flex;       
+    justify-content: center;     
+    flex-direction: column;    
+    padding:30px;     
+    width: 960px;    
+    margin-left: auto;    
+    margin-right: auto;
+}
+
+.comentarios h2 {    
+    margin-bottom: 30px;    
+    border-bottom: 3px solid #1b53bb;    
+    font-size: 30px;
+}
+
+.feedbackTable {    
+    max-width: 100%;    
+    border-collapse: collapse;
+}
+
+.feedbackTable tr td {    
+    font-size: 15px;
+}
+
+.feedbackTable tr th {    
+    background-color: #1b53bb;    
+    font-size: 20px;    
+    color: #ffffff;
+}
+
+.comentario {    
+    max-width: 600px;    
+    height: 90px;
+}
+
+table, th, td {    
+    border: 1px solid black;    
+    padding: 8px;
+}
